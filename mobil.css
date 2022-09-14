@@ -1,0 +1,363 @@
+@media screen and (max-width: 418px){
+
+    body{
+        margin: 0;
+        padding: 0;  
+        width: 100%;
+        
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .siteHeader{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+         margin-top: 0px;  
+    }
+   
+.navigation{
+    display: none;
+}
+.menu-check:checked + .navigation{
+    display:block;
+    position:absolute;
+    list-style: none;
+    width: 10%;
+    height: 80px;
+    justify-content: space-evenly;
+    top: 74px;
+    right: 75px;
+    font-size: 15px;
+    line-height: 22px;
+
+} 
+
+.socialMedia{
+    display: none;
+}
+
+.logo{
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 5px;
+
+  
+}
+.menu-check-label{
+    display:inline-block;
+    order:1;
+   
+}
+
+.headContain{
+   
+  width: 100%;
+  
+}
+    footer{
+        height: auto;
+        display: block;
+    }
+
+ /* ________________________header text__________________ */
+
+ .textHa{
+     width: 80%;
+     font-size: 48px;
+     font-weight: 400;
+     line-height: 55px;
+ }
+ .textHbMobil{
+     display: inline-block;
+     font-size: 28px;
+     font-style: normal;
+     font-size: 28px;
+     font-weight: 400;
+     width: 90%;
+     color: var(--secondaryColor);
+ }
+ .textHb{
+     display: none;
+ }
+ /* ________________sectionA______________ */
+ .sectionAh{
+     display: none;
+    
+    }
+    .sectionAhMobil{
+        display: inline-block;
+        width: 80%;
+        margin-top:0 ;
+      
+    }
+
+    /* ______________sectionBc_________________ */
+    .sectionB{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionBc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    video{
+      
+        height: 229.12px;
+        width: 90%;
+        margin-top: 0px ;
+        margin-bottom: 50px;
+
+    }
+    /* ___________-sectionD_____________ */
+    .sectionD{
+        flex-direction: column;
+        
+    }
+    .sD{
+        text-align: center;
+    }
+  
+   .sectionD{
+       margin-top: 40px;
+       width: 100%;
+       margin-right: 50px;
+       padding-top: 0px;
+   }
+   .monitorImg{
+    display:none ;
+
+   }
+   .monitorMobil{
+       display: flex;
+       margin: auto;
+       margin-top: 50px;
+   }
+   .sDtext{
+       display: none;
+   }
+   .sDtextMobil{
+       display: inline-block;
+       width: 80%;
+   }
+   .sectionD{
+   
+    margin: 80px auto;
+}
+   /* ______________-sectionE___________ */
+   .sectionE{
+       flex-direction: column;
+   }
+   .sectionDtextMobil{
+    display:inline-block ;
+}
+.sectionEtext{
+    display: none;
+}
+.sectinEdec{
+    display: inline-block;
+    width: 100%;
+    font-weight: 400;  
+}
+.lightning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.email{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputT {
+    width: 353px;
+    height: 54px;
+    margin-bottom: 20px;
+}
+.subscribeBtn{
+    width: 353px;
+    height: 54px;
+}
+
+.sectionDimg{
+    display: none;
+}
+.sectionDimga{
+    display: inline-block;
+}
+.sectionEs{
+    margin-top: 60px;
+}
+/* ____________sectionF__________ */
+.partnersA{
+    width: 552px;
+    height: 182px;
+    left: -87px;
+    top: 50px;
+}
+.partnerBrand{
+    display: flex;
+    flex-direction:column ;
+    margin-top: 70px;
+}
+
+.partnersBrandb{
+    display: none;
+}
+.partnerImg{
+    width: 273px;
+    height: 151px;
+    left: 1px;
+    top: 18px;
+}
+/* _________________sectionG______________ */
+.testomonial{
+    display: none;
+}
+.tesText{
+    display: inline-block;
+    font-size:13.53px;
+    font-family: Roboto;
+    font-weight: 700;
+    width: 65%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* ____________sectionH___________ */
+
+.sectionHb{
+    flex-direction:column ;
+   }
+   .order{
+      margin-right: auto;
+   }
+   .orderB{
+       margin-top:30px;
+      
+   }
+   .textHbMobilH{
+      
+       width: 100%;
+       margin-top: 0;
+   }
+   .sectionHt{
+       width: 70%;
+   }
+   .sectionIa{
+       width: 70%;
+   }
+   .contactT{
+       display: none;
+   }
+   .textHbMobil{
+       display: inline-block;
+   }
+   iframe{
+       display: none;
+   }
+   .textHbMobilC{
+       display: inline-block;
+       margin-top: 0;
+       padding-top: 0;
+       margin-bottom: 60px;
+   }
+   .textHh{
+       display: none;
+   }
+   .contactF{
+       margin: auto;
+       width: 90%;
+
+   }
+   .contactPart{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   
+   .contactMap{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+
+   .contactItems{
+       flex-direction: column;
+   }
+   .contactM{
+       display: flex;
+       width: 100%;
+       flex-direction: row;
+      
+       margin-left:30px;
+       padding: 0;
+       line-height: 1;
+   }
+   .contactPng{
+       margin-bottom: 0;
+   }
+   .contactIcon{
+       margin-top: 5px;
+       text-align: left;
+       margin-left: 20px;
+       width: 80%;
+   }
+   .contactSocial{
+       width: 40%;
+       margin: auto;
+       order: 1;
+       margin-bottom: 70px;
+   }
+
+  
+   /* _____________footer____________ */
+   .sectionFooter{
+       flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-top:100px ;
+    justify-content: space-between;
+    text-align: center;
+
+    padding-bottom: 150px;
+       
+   }
+   .footerItem{
+       padding: 80px auto;
+   }
+  
+   .itemB{
+       margin-top: 90px;
+       margin-bottom: 90px;
+   }
+   .iconA{
+       margin-top: 60px;
+   }
+   .iconB{
+       margin-top: 0;
+       margin-bottom: 70px;
+   }
+   .footerSocial{
+       margin: auto;
+   }
+.footerD{
+    display: none;
+}
+.mobilFooter{
+    display:flex;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+}

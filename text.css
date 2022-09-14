@@ -1,0 +1,74 @@
+@import url(https://en.bestfonts.pro/font/graphik);
+
+h1{
+    font-size: 74px; 
+    align-items: center;
+    
+}
+h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 28px;
+    line-height: 40px; 
+    align-items: center;     
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    
+}
+h5{
+    font-size: 23px;
+}
+h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+button{
+    font-size: 20px;
+}
+
+link{
+    font-size: 28px;
+    color:var(--secondaryColor);
+}
+
+
+/* ___________sectionA_____________ */
+.sectionAh{
+    color: black;
+}
+
+
+@media only screen and (max-width: 418px){
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size:48px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 28px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    button{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    link{
+        font-size: 15px;
+    }
+
+}

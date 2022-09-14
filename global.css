@@ -1,0 +1,393 @@
+@import url(vaiables.css);
+html, body{
+    margin:0;
+    padding: 0;
+  
+
+
+}
+body{
+    /* display: flex; */
+    font-family: sans-serif;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.sectionA{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+margin: 70px auto;
+text-align: center;
+}
+.sectionAh{
+    width: 35%;
+    margin-top: 0;
+    
+}
+
+.sectionAhMobil{
+    display: none;
+}
+
+.sectionB{
+display: flex;
+flex-direction: row;
+
+margin: auto;
+padding: 0px;
+position: static;
+
+width: 55%;
+
+}
+.sectionBc{
+    display: flex;
+    flex-direction: column;
+}
+
+.sB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.goal{
+    height: 100px;
+}
+.sectionC{
+    filter: drop-shadow(0px 8.14769px 63.1446px rgba(0, 0, 0, 0.15));
+border-radius: 44.8123px;
+}
+video{
+    display: flex;
+    width: 70%;
+    margin: 140px auto;
+    filter: drop-shadow(10px 8.14769px 63.1446px rgba(0, 0, 0, 0.15));
+    border-radius: 44px;
+}
+.sectionD{
+    display:flex ;
+    justify-content: center;
+    width: 80%;
+    margin: 180px auto;
+}
+
+.sDtextMobil{
+    display: none;
+}
+.monitorMobil{
+    display: none;
+}
+/* __________________sectionE_______________ */
+
+.sectionE{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.sectionDimg{
+left: 50px;
+top: 106px;
+}
+.lightning{
+    margin-top: 59px; 
+}
+.sectionDtextMobil{
+    display:none ;
+}
+.sectinEdec{
+    display: none;
+}
+.sectionEp{
+    line-height: 0.03;
+    
+    
+}
+.email{
+    display: flex;
+    padding: 34px 0px;
+    position: static;
+    left: 10px;
+    top: 63px;
+}
+.sectionDimga{
+    display: none;
+}
+
+/* __________-sectionF__________ */
+.sectionF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+
+} 
+.partnersA{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+.partnersB{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    justify-content: center;
+    margin-top:80px;
+    margin-bottom: 80px;
+    padding: 0px;
+}
+.partnersLogo{
+  
+bottom: 220px;
+}
+.partnerImg{
+    padding: 0px;
+    margin: 0px;
+    /* width: 200px;
+    height: 170px;
+    margin: 0; */
+}
+
+.partnerBrand{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.testomonial{
+    width: 65%;
+    text-align: center;
+    /* color: var(--secondaryText); */
+    margin-bottom: 70px;
+}
+.tesText{
+    display: none;
+}
+.testP{
+    display: flex;
+flex-direction: row;
+align-items: center;
+/* padding: 0px; */
+position: static;
+margin-bottom: 70px;
+    
+}
+.TextG{
+    line-height: 0.1;
+    padding-left: 20px;
+    
+}
+.textGa{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    margin-top:14px;
+}
+
+.textGb{
+    font-size: 15px;
+}
+
+
+/* ___________sectionH______________ */
+
+.sectionH{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 0px;
+
+position: static;
+/* width: 1777px; */
+/* height: 1250px;  */
+left: 0px;
+margin-top: 70px;
+background-color:#252B42 ;
+}
+.sectionHt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 36%;
+    color: var(--secondaryColor);
+    /* Line-height: 55px; */
+    
+
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    border-radius: 10px;
+    
+}
+.sectionHb{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    
+}
+.orderb{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin: 20px;
+}
+.zero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    /* padding: 40px 20px; */
+    
+}
+.zeroA{
+    margin: 0px;
+    padding:15px;
+   
+}
+.month{
+    line-height: 0.1;
+    /* margin-bottom: -60px; */
+}
+.price{
+    font-size: 15px;
+}
+.priceA{
+    margin-bottom: 40px;
+}
+
+.orderA{
+    background-color: var(--secondaryColor);
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+
+}
+.orderB{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    margin-right: 40px;
+    padding-bottom: 80px;
+    padding-top: 60px;
+
+}
+.orderC{
+    background-color: var(--secondaryColor);
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* _________sectionI_________ */
+.sectionI{
+    margin: auto;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 50%; */
+    /* line-height: 0.5; */
+    
+}
+.sectionIa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.contactT{
+    margin-top: 0px;
+    padding-bottom: 70px;
+    width: 70%;
+    margin: auto;
+}
+.contactF{
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+    /* height: 669px; */
+    /* width: 70%; */
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius:20px ;
+    padding-top: 35px;
+    padding-bottom: 40px;
+
+}
+
+.contactN {
+    width: 80%;
+    margin:20px auto;
+}
+.contactText{
+    width: 80%;
+    /* height: 193px; */
+    margin:  20px auto;
+    background-color: #F5F5F5;
+    border: none;
+}
+.contactPart{
+    display: flex;
+    margin: auto;
+}
+.contactItems{
+    display: flex;
+    flex-direction: row;
+}
+.contactPng{
+    margin-bottom: -20px;
+}
+.contactL{
+    width:40% ;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.contactE{
+    margin-left: 30px;
+}
+.contactMap{
+    margin-top: 20px;
+}
+.map{
+    width: 600px;
+    height:380px;
+    border:0;
+    margin-top: 20px;
+}
+.contactSocial{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+.textHbMobilC{
+    display: none;
+}
+  
+
+
+

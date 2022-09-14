@@ -1,0 +1,51 @@
+@import url(vaiables.css);
+button{
+    width: 236px;
+    height: 60px;
+    border-radius:35px;
+    background-color: var(--primaryColor);
+    border: none;
+    font-size: 20px;
+}
+button a{
+    text-decoration: none;
+    color: var(--secondaryColor);
+
+    border-radius: 35px;
+}
+
+input{
+    width: 270px;
+    height: 58px;
+    border-radius: 39px;
+    border: none;
+    padding: 19px 39px;
+    /* position: static; */
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    margin-right: 12px;
+  
+}
+.testBtn{
+    width: 276px;
+    height: 60px;
+}
+.priceBtn{
+    background-color: var(--secondaryColor);
+    
+}
+.priceBtn a{
+    color:var(--primaryColor) ;
+}
+.contactBtn{
+    margin-left: 50px;
+    margin-top:30px ;
+    width: 145px;
+    height: 56px;
+    left: 50px;
+}
+.contactItems{
+    order:1
+
+}
+

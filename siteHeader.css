@@ -1,0 +1,113 @@
+.headContain{
+    background-image: url(img/MicrosoftTeams-image2.jpg);
+    clip-path: polygon(0 0, 100% 0%, 100% 83%, 50% 100%, 0 83%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 800px; 
+   position:relative;
+}
+.headContain::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.609);
+}
+
+.siteHeader{
+    display:flex; 
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+     width: 60%;
+     margin-top: 0px;
+     padding-top: 40px;
+     position: relative; 
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 48px;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    margin-right: 10px;
+    align-items: center;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.socialMedia{
+    display: flex;
+    list-style: none;
+    width: 13%;
+    justify-content: space-between; 
+}
+
+.menuItem{
+    text-decoration: none;
+    color:white;
+}
+.liMenu{
+    text-decoration: none;
+}
+#check:checked + .menu-items{
+    display: block;
+  }
+  #check{
+    display: none;
+  }
+
+  .menu-check{
+    display: none;
+  }
+  
+  .menu-check-label{
+    display: none;
+    margin-right:20px ;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+.textH{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    position: relative;
+}
+.textHa{
+    width: 50%;
+    padding: 10px;
+    top: 0px;
+    left: 47px;
+    margin: 7px 0px;
+    height: 188px;
+    line-height: 84px;
+    color: var(--secondaryColor); 
+}
+.textHb{
+    color: var(--secondaryColor);
+
+    width: 50%;
+    height: 100px;
+    line-height: 40px;
+}
+.textHbMobil{
+    display: none;
+}
+
+
+    
+
+
+
+
+
+
